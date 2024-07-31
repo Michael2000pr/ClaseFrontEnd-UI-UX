@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <link rel="stylesheet" href="/actividad_Bootstrap/css/galeria.css">
+    <title>Galeria</title>
+</head>
+<body>
+
+    <div w3-include-html="../navBar.html"></div>
+
+
+    <div id="marco">
+        <div id="contenedor">
+            <object class="vertical" data="http://getbootstrap.com" type="text/html"></object>
+            <iframe class="vertical" src="http://vishub.org" frameborder="0"></iframe>
+
+            <div id="vertical">
+                <video class="horizontal"  controls>
+                    <source src="/actividad_Bootstrap/img/Toto - Hold The Line (Official Video).mp4" type="video/mp4">
+                </video>
+                <video class="horizontal"  controls>
+                    <source src="/actividad_Bootstrap/img/Guns N' Roses - Sweet Child O' Mine (Official Music Video).mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div id="vertical">
+                <object class="horizontal" data="imagenSVG.svg" type="image/svg+xml"></object>
+                <img class="horizontal" src="/actividad_Bootstrap/img/JavaScript-logo.png" >
+            </div>
+        </div>
+    </div>
+
+    <script>w3IncludeHTML();</script>
+</body>
+</html>

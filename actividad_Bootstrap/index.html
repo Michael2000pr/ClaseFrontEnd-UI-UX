@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="import" href="navBar.html" id="navBar">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <title>.:Home Page:.</title>
+</head>
+
+<body>
+    <div w3-include-html="./navBar.html"></div>
+    <script>w3IncludeHTML();</script>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid jumbotron-custom text-center">
+        <div class="container">
+            <h1 class="display-4 py-4">Bienvenido a MaicTech</h1>
+            <p class="lead py-1">Descubre los últimos avances en tecnología y aprende los lenguajes de programación más populares.</p>
+            <a class="btn btn-primary btn-lg " href="#about" role="button">Más Información</a>
+        </div>
+    </div>
+
+    <!-- Section About -->
+    <section id="about" class="py-5">
+        <div class="container">
+                <div class="">
+                    <h2 class="text-center">Sobre Nosotros</h2>
+                    <p class="text-justify ">En MaicTech, estamos dedicados a proporcionar recursos de alta calidad para desarrolladores y entusiastas de la tecnología. Nuestro objetivo es ayudar a las personas a mantenerse actualizadas con las últimas tendencias y habilidades necesarias para prosperar en el mundo digital.</p>
+                </div>
+        </div>
+    </section>
+
+    <!-- Section Programming Languages -->
+    <section id="languages" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">Lenguajes de Programación Populares</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="/actividad_Bootstrap/img/JavaScript-logo.png" height="293" width="293" class="card-img-top" alt="Logo JS">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">JavaScript es un lenguaje de programación versátil utilizado tanto en el lado del cliente como del servidor para crear aplicaciones web interactivas.</p>
+                            <a href="#" class="btn btn-primary">Aprender más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="/actividad_Bootstrap/img/python (1).jpg" height="293" width="293"  class="card-img-top" alt="Logo Python">
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">Python es conocido por su sintaxis clara y su facilidad de uso, siendo una excelente opción para principiantes y profesionales por igual.</p>
+                            <a href="#" class="btn btn-primary">Aprender más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="/actividad_Bootstrap/img/logo-java.svg" height="293" width="293" class="card-img-top" alt="Logo Java">
+                        <div class="card-body">
+                            <h5 class="card-title">Java</h5>
+                            <p class="card-text">Java es un lenguaje de programación robusto y de propósito general, utilizado en una amplia variedad de aplicaciones empresariales y móviles.</p>
+                            <a href="#" class="btn btn-primary">Aprender más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>&copy; 2024 MaicTech. Todos los derechos reservados.</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</html>
