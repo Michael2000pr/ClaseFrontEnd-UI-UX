@@ -4,42 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
-        defer></script>
+    
     <link rel="import" href="navBar.html" id="navBar">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
     <title>.:Home Page:.</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/actividad Bootstrap/pages/miprimerapagina.html">Primera
-                            Pagina</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Estructura :: Noticia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Imagene Responsiva</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Galeria de imagenes con Flex</a>
-                    </li>
-                </ul>
+    <div w3-include-html="./navBar.html"></div>
+    <script>w3IncludeHTML();</script>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid jumbotron-custom text-center">
+        <div class="container">
+            <h1 class="display-4 py-4">Bienvenido a MaicTech</h1>
+            <p class="lead py-1">Descubre los últimos avances en tecnología y aprende los lenguajes de programación más populares.</p>
+            <a class="btn btn-primary btn-lg " href="#about" role="button">Más Información</a>
+        </div>
+    </div>
+
+    <!-- Section About -->
+    <section id="about" class="py-5">
+        <div class="container">
+                <div class="">
+                    <h2 class="text-center">Sobre Nosotros</h2>
+                    <p class="text-justify ">En MaicTech, estamos dedicados a proporcionar recursos de alta calidad para desarrolladores y entusiastas de la tecnología. Nuestro objetivo es ayudar a las personas a mantenerse actualizadas con las últimas tendencias y habilidades necesarias para prosperar en el mundo digital.</p>
+                </div>
+        </div>
+    </section>
+
+    <!-- Section Programming Languages -->
+    <section id="languages" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">Lenguajes de Programación Populares</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Lenguaje 1">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">JavaScript es un lenguaje de programación versátil utilizado tanto en el lado del cliente como del servidor para crear aplicaciones web interactivas.</p>
+                            <a href="#" class="btn btn-primary">Aprender más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Lenguaje 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">Python es conocido por su sintaxis clara y su facilidad de uso, siendo una excelente opción para principiantes y profesionales por igual.</p>
+                            <a href="#" class="btn btn-primary">Aprender más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Lenguaje 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Java</h5>
+                            <p class="card-text">Java es un lenguaje de programación robusto y de propósito general, utilizado en una amplia variedad de aplicaciones empresariales y móviles.</p>
+                            <a href="#" class="btn btn-primary">Aprender más</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-</body>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>&copy; 2024 TechWorld. Todos los derechos reservados.</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </html>

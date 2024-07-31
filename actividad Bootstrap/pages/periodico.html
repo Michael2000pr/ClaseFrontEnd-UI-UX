@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BigTechs</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="/actividad Bootstrap/css/periodico.css">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+    
+    
 </head>
 
 <body>
+    <div w3-include-html="../navBar.html"></div>
+
     <header>
         <h1>BigTechs Mundiales</h1>
     </header>
-    <nav>
+    <nav class="navegacionPeriodico">
         <ul id="indice">
-            <li><a href=https://www.telecinco.es/noticias/ciencia-y-tecnologia/ia/20240719/directo-caida-microsoft-nivel-mundial-ultima-hora-incidencias-aerolineas-bancos-sistemas_19_013060158.html"
+            <li><a class="vinculos" href=https://www.telecinco.es/noticias/ciencia-y-tecnologia/ia/20240719/directo-caida-microsoft-nivel-mundial-ultima-hora-incidencias-aerolineas-bancos-sistemas_19_013060158.html"
                     target="_blank"> Microsoft Noticia</a></li>
-            <li><a href="https://www.eltiempo.com/tecnosfera" target="_blank">Tecnologia Colombia </a></li>
-            <li><a href="https://elpais.com/tecnologia/" target="_blank"> El pais - Tecnologia</a></li>
+            <li><a class="vinculos" href="https://www.eltiempo.com/tecnosfera" target="_blank">Tecnologia Colombia </a></li>
+            <li><a class="vinculos" href="https://elpais.com/tecnologia/" target="_blank"> El pais - Tecnologia</a></li>
         </ul>
     </nav>
     <div class="caja">
@@ -59,12 +65,12 @@
                 </section>
             </aside>
         </div>
+        
+    </div>
         <footer>
             <p>@copyright 2024 Michael Perez</p>
         </footer>
-    </div>
-
-
+        <script>w3IncludeHTML();</script>
 </body>
 
 </html>

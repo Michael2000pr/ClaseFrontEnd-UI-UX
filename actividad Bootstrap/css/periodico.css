@@ -1,14 +1,19 @@
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+header{
+  margin: 20px 0 20px 0;
+}
 header h1 {
   text-align: center;
+  margin: 10px 0 10px 0;
 }
 #seccion1 {
-  border: 1px solid black;
+  border: 1px solid #000000;
   text-align: left;
 }
-nav {
+.navegacionPeriodico {
+  margin-top: 10px;
   display: flex;
   justify-content: space-around;
 }
@@ -35,7 +40,7 @@ footer {
 footer p {
   text-align: center;
 }
-nav a:hover {
+.vinculos:hover {
   border-bottom: solid 0.8px black;
   background-color: rgb(227, 227, 227);
 }

@@ -24,7 +24,7 @@ ul{
 li{
     flex-grow: block;
 }
-a{
+.navPrimeraPagina{
     display: block;
     padding: 1em;
     background-color: lightgray;
@@ -33,7 +33,7 @@ a{
     text-decoration: none;
     color: black;
 }
-a:hover{
+.navPrimeraPagina:hover{
     transition: 0.2s ease-in;
     /*transform: rotate(360deg);*/
     /*transform: skewX(20deg);*/
